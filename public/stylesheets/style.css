@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+select {
+  width: 250px;
+  height: 30px;
+  border-radius: 1px solid grey;
+  margin-right: 20px;
+  overflow-y: scroll;
+}
+#select-element {
+  max-height: 50px;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start ;
+}
+.foto-dog {
+  width: 250px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cabinet</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="header">
+      <% if (locals.selectDog) { %>
+        <select id="select-element" onchange="saveSelectValue(this)">
+          <%- selectDog %>
+        </select>
+        <% } %>
+    
+        <% if (locals.img) { %>
+          <div class="foto-dog"><%- img %></div>
+        <% } %>
+    </div>
+   
+   
+    <script src="/javascripts/main.js"></script>
+
+  </body>
+</html> 
